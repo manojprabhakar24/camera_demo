@@ -10,7 +10,7 @@ Future<void> main() async {
   final firstCamera = cameras.first;
 
   runApp(MaterialApp(
-    theme: ThemeData.light(),
+    theme: ThemeData.dark(),
     home: TakePictureScreen(
       camera: firstCamera,
     ),
